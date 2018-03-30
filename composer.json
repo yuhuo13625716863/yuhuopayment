@@ -1,20 +1,34 @@
-{
-    "name": "yuhuo13625716863/payment",
-    "description": "Alipay,Unicompay,weChatPay",
-    "keywords": ["Alipay", "Unicompay"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "yuhuo13625716863",
-            "email": "610096117@qq.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.6.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "yuhuo13625716863\\payment\\": "src/"
-        }
-    }
-}
+{  
+  "name": "yuhuo13625716863/payment",  
+  "description": "Alipay,Unicompay,weChatPay",  
+  "keywords": [  
+    "Alipay",  
+    "Unicompay"  
+  ],  
+  "homepage": "https://github.com/yuhuo13625716863/yuhuopayment",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/yuhuo13625716863/yuhuopayment"  
+  },  
+  "authors": [  
+    {  
+      "name": "yuhuo13625716863",
+      "email": "610096117@qq.com"
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "payment\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}  
